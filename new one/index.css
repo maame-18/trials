@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  box-sizing: border-box;
+}
+nav{
+    background-color:grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin: 10px;
+
+}
+nav ul li a{
+    color: black;
+
+}
+.lg{
+    color:black;
+    font: bold;
+}
+.new-big{
+    min-height: 100vh;
+}
+.container{
+background: url(album/zz.jpg);
+height: 100vh;
+background-size: cover;
+}
+/* .h3{
+    position: relative;
+    font-size: 60px;
+    top: 200px;
+    color: white;
+    left: 390px;
+} */
+.text{
+ font-size: 60px;
+ position: relative;
+ top: 200px;
+ color: goldenrod;
+text-align: center;
+}
+
+.sp1{
+    color: darkred;
+}
+.abt{
+    min-height: 100vh;
+}
